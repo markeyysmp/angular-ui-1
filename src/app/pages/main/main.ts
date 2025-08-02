@@ -14,7 +14,7 @@ import peopleData from '../../../assets/people.json';
 export class Main {
   people = peopleData;
   movies = movieData;
-  
+  play = false;
   scrollCarousel(direction: string): void {
     const carousel = document.getElementById('movieCarousel');
     if (!carousel) return;

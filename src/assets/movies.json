@@ -3,46 +3,49 @@
     "id": 1,
     "title": "The Lord of the Rings: The Fellowship of the Ring",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "videoUrl": "https://imdb-video.media-imdb.com/vi684573465/1434659607842-pgv4ql-1640006590845.mp4?Expires=1754147783&Signature=fw8c40Ax46bNRKHIWJeF0DrCARJQyQtwqm-3XGhapaU0AwWSPzVzlwyGLrumeyCzNEE4UhIE1Iep7ySR40c3GeBypnvQISBWpis8TDLrYepDQIPAfWycOOn3pZ8IwHuiYdVaXFTZwBF4YGE73UWljYGtyu-ZMIWGafy3ogQwgqulgO43MKAl-CDKkx~uTaLuBjr9pFjJhVVIPC8q30pjzpSxYZHxnPQ7TCxomWhZHO~Im20bj8S73hlShptEDekrVBqxIyAQJbNy1okfLhRn0EoBWVEc5hZsSNmCKl8odFM-BTQucqGTijR8E2Lw-dvY55sIjdiHSQD8HmG9fK~n9w__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
     "rating": 8.9
   },
   {
     "id": 2,
     "title": "Wednesday",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BZGQxYWFlNzgtODZjMS00YmM5LWEzZWMtOGVmODMzYjIyODZiXkEyXkFqcGc@._V1_QL75_UY562_CR11,0,380,562_.jpg",
+    "videoUrl": "",
     "rating": 8.3
   },
   {
     "id": 3,
     "title": "Ojing-eo geim",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-
+    "videoUrl": "",
     "rating": 9.2
   },
   {
     "id": 4,
     "title": "Moana 2",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BZDUxNThhYTUtYjgxNy00MGQ4LTgzOTEtZjg1YTU5NTcwNThlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-
+    "videoUrl": "",
     "rating": 6.5
   },
   {
     "id": 5,
     "title": "Superman",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
-
+    "videoUrl": "",
     "rating": 7.6
   },
   {
     "id": 6,
     "title": "Thunderbolts*",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BYWE2NmNmYTItZGY0ZC00MmY2LTk1NDAtMGUyMGEzMjcxNWM0XkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
-
+    "videoUrl": "",
     "rating": 7.3
   },
   {
     "id": 7,
     "title": "Sinners",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "videoUrl": "",
     "rating": 7.6
   }
 
