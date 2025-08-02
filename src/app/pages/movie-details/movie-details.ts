@@ -1,22 +1,25 @@
+import { CommonModule, Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import movieData from '../../../assets/movies.json';
 
 @Component({
   selector: 'app-movie-details',
-  imports: [],
+  imports: [RouterModule, CommonModule],
   templateUrl: './movie-details.html',
   styleUrl: './movie-details.scss'
 })
 
 export class MovieDetails implements OnInit {
+  showOverlay = true;
   id: string = '';
   movie: any = movieData;
   currentMovie: any;
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private location: Location
   ) {}
 
   ngOnInit() {
@@ -33,5 +36,10 @@ export class MovieDetails implements OnInit {
 
   getMovieData(id: number) {
     return this.movie.find((movie: any) => Number(movie.id) === id);
+  }
+  
+  goBack()
+  {
+    this.location.back();
   }
 }

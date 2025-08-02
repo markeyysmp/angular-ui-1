@@ -3,50 +3,100 @@
     "id": 1,
     "title": "The Lord of the Rings: The Fellowship of the Ring",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
-    "videoUrl": "https://imdb-video.media-imdb.com/vi684573465/1434659607842-pgv4ql-1640006590845.mp4?Expires=1754147783&Signature=fw8c40Ax46bNRKHIWJeF0DrCARJQyQtwqm-3XGhapaU0AwWSPzVzlwyGLrumeyCzNEE4UhIE1Iep7ySR40c3GeBypnvQISBWpis8TDLrYepDQIPAfWycOOn3pZ8IwHuiYdVaXFTZwBF4YGE73UWljYGtyu-ZMIWGafy3ogQwgqulgO43MKAl-CDKkx~uTaLuBjr9pFjJhVVIPC8q30pjzpSxYZHxnPQ7TCxomWhZHO~Im20bj8S73hlShptEDekrVBqxIyAQJbNy1okfLhRn0EoBWVEc5hZsSNmCKl8odFM-BTQucqGTijR8E2Lw-dvY55sIjdiHSQD8HmG9fK~n9w__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-    "rating": 8.9
+    "trailerImg": "https://m.media-amazon.com/images/M/MV5BMzQ2YjI2YzgtZmNmMy00ZjUyLWE0NGItY2Y3NjUzZWM4NmM3XkEyXkFqcGdeQWxiaWFtb250._V1_QL75_UX1000_CR0,0,1000,563_.jpg",
+    "videoUrl": "https://imdb-video.media-imdb.com/vi684573465/1434659607842-pgv4ql-1640006590845.mp4?Expires=1754237289&Signature=USTfSD1sZlhYJ8xjonDZ8TgxsEeLpqQjhD2Zo~hDLlByE6bcqsnQ3naJx8ESgiKS3DOTlSlav9YaEyDiS5rxGYiNgkKtOWMl8BVH5Qgo7I7yPF4AfDk5NFsoUeBXcuak-zmEK6usrdv3DqKCMeiQsFw~DwSc56vdCK84cu6WUQjf3FXJhWYzcqUyfBBnid6g2-J7SFxiDQtLXviTFdyxPCGO7d3ut4OckKRemlX5OiGFUgMEAfjJorRuJWUSHqKhhse6Lt-xxsFpUJJ58JJ0aCtX6oMsFiU4cNrGh5UiryaokWRySsqKRZuEE4c9wTP~pjHyQrtzX2Dk~1TuT3-tFA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "rating": 8.9,
+    "ratingCount": "2.1M",
+    "popularity": 109,
+    "interests": ["Action Epic", "Adventure Epic", "Dark Fantasy", "Epic"],
+    "presentation": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+    "director": ["Peter Jackson"],
+    "writers": ["J.R.R. Tolkien", "Fran Walsh", "Philippa Boyens"],
+    "stars": ["Elijah Wood", "Ian McKellen", "Orlando Bloom"]
   },
   {
     "id": 2,
     "title": "Wednesday",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BZGQxYWFlNzgtODZjMS00YmM5LWEzZWMtOGVmODMzYjIyODZiXkEyXkFqcGc@._V1_QL75_UY562_CR11,0,380,562_.jpg",
     "videoUrl": "",
-    "rating": 8.3
+    "rating": 8.3,
+    "ratingCount": "2.1M",
+    "popularity": 61,
+    "interests": ["Action Epic"],
+    "presentation": "",
+    "director": [""],
+    "writers": [""],
+    "stars": [""]
   },
   {
     "id": 3,
     "title": "Ojing-eo geim",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
     "videoUrl": "",
-    "rating": 9.2
+    "rating": 8.0,
+    "ratingCount": "786K",
+    "popularity": 496,
+    "interests": ["Action Epic"],
+    "presentation": "",
+    "director": [""],
+    "writers": [""],
+    "stars": [""]
   },
   {
     "id": 4,
     "title": "Moana 2",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BZDUxNThhYTUtYjgxNy00MGQ4LTgzOTEtZjg1YTU5NTcwNThlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
     "videoUrl": "",
-    "rating": 6.5
+    "rating": 6.5,
+    "ratingCount": "412K",
+    "popularity": 1,
+    "interests": ["Action Epic"],
+    "presentation": "",
+    "director": [""],
+    "writers": [""],
+    "stars": [""]
   },
   {
     "id": 5,
     "title": "Superman",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
     "videoUrl": "",
-    "rating": 7.6
+    "rating": 7.6,
+    "ratingCount": "1.1M",
+    "popularity": 3,
+    "interests": ["Action Epic"],
+    "presentation": "",
+    "director": [""],
+    "writers": [""],
+    "stars": [""]
   },
   {
     "id": 6,
     "title": "Thunderbolts*",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BYWE2NmNmYTItZGY0ZC00MmY2LTk1NDAtMGUyMGEzMjcxNWM0XkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
     "videoUrl": "",
-    "rating": 7.3
+    "rating": 7.3,
+    "ratingCount": "320K",
+    "popularity": 4,
+    "interests": ["Action Epic"],
+    "presentation": "",
+    "director": [""],
+    "writers": [""],
+    "stars": [""]
   },
   {
     "id": 7,
     "title": "Sinners",
     "imgUrl": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
     "videoUrl": "",
-    "rating": 7.6
+    "rating": 7.6,
+    "ratingCount": "129K",
+    "popularity": 12,
+    "interests": ["Action Epic"],
+    "presentation": "",
+    "director": [""],
+    "writers": [""],
+    "stars": [""]
   }
 
 ]
