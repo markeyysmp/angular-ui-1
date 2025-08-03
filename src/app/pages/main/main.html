@@ -6,42 +6,15 @@
 		</div>
 
 		<div class="relative mt-4 w-full">
-			<!-- Left Navigation Button  movies > 6 -->
-			<button 
-				*ngIf="movies.length > 6"
-				id="scrollLeft" 
-				class="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/80 hover:bg-black text-white rounded-full p-2 transition-all duration-200 hover:scale-110 shadow-lg opacity-0 invisible"
-				(click)="scrollCarousel('left')"
-			>
-				<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-					<path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
-				</svg>
-			</button>
-
-			<!-- Right Navigation Button movies > 6 -->
-			<button 
-				*ngIf="movies.length > 6"
-				id="scrollRight" 
-				class="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/80 hover:bg-black text-white rounded-full p-2 transition-all duration-200 hover:scale-110 shadow-lg"
-				(click)="scrollCarousel('right')"
-			>
-				<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-					<path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
-				</svg>
-			</button>
-
-			<!-- Movie Cards Container -->
 			<div 
 				id="movieCarousel" 
 				class="flex flex-row gap-4 scroll-smooth overflow-x-hidden"
 				[class.flex-wrap]="movies.length <= 6"
 				[class.overflow-x-hidden]="movies.length > 6"
 				[style.width]="movies.length > 6 ? 'calc(6 * (168px + 16px))' : 'auto'"
-				style="scroll-behavior: smooth;"
-			>
+				style="scroll-behavior: smooth;">
 				<!-- watchlist card -->
 				<div *ngFor="let movie of movies" class="flex-shrink-0" style="min-width: 168px;">
-
 					<div class="flex flex-col bg-neutral-800 rounded-lg relative overflow-hidden">
 						<!-- IMDb-style Ribbon -->
 						<div class="absolute top-0 left-0 z-10 cursor-pointer group">
@@ -55,10 +28,10 @@
 									<path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"></path>
 								</svg>
 							</div>
-						</div>
+						</div> 
 						<div class="mv-logo">
 							<a [routerLink]="['/movie-detail', movie.id]">
-								<img class="w-[168px]" [src]="movie.imgUrl" />
+								<img class="w-[200px]" [src]="movie.imgUrl" />
 							</a>
 						</div>
 						<div class="ml-2">
@@ -90,18 +63,22 @@
 						</div>
 						<div class="flex flex-col justify-center items-center">
 							<div class="mt-8 w-4/5">
-								<button class="w-full rounded-full bg-white/10 text-blue-500 border border-white/30 font-bold text-lg py-2 transition-all hover:bg-white/20 hover:text-white hover:border-white/50 hover:scale-105">
+								<button class="w-full bg-white/10 text-blue-500 border border-white/30 font-bold text-sm py-2 transition-all hover:bg-white/20 hover:text-white hover:border-white/50">
 									+ Watchlist
 								</button>
 							</div>
 							<!-- trailer  -->
-							<div class="flex items-center justify-center text-white gap-2 text-lg pb-8 transition-all mt-4 hover:scale-105 hover:cursor-pointer">
-								<a href="moana.html" class="flex items-center">
+							<div class="flex items-center justify-center text-white gap-1 text-sm pb-8 transition-all mt-4 ">
 									<svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M8 5v14l11-7L8 5z" />
 									</svg>
-									Trailer
-								</a>
+									
+									<div class="mv-logo">
+										<a [routerLink]="['/movie-detail', movie.id]">
+											Trailer
+										</a>
+									</div>
+
 							</div>
 						</div>
 					</div>
@@ -128,7 +105,7 @@
 			<div *ngFor="let person of people" class="flex-shrink-0" style="min-width: 168px;">
 				<div class="flex flex-col relative overflow-hidden">
 					<div class="flex flex-col items-center">
-						<a [routerLink]="['/person', person.id]">
+						<a [routerLink]="['/actors', person.id]">
 							<img class="w-[100px] rounded-full" [src]="person.profile" />
 						</a>
 						<h2 class="text-zinc-200 mt-2">{{ person.name }}</h2>

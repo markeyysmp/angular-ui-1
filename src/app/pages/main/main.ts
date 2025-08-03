@@ -15,74 +15,74 @@ export class Main {
   people = peopleData;
   movies = movieData;
   play = false;
-  scrollCarousel(direction: string): void {
-    const carousel = document.getElementById('movieCarousel');
-    if (!carousel) return;
+  // scrollCarousel(direction: string): void {
+  //   const carousel = document.getElementById('movieCarousel');
+  //   if (!carousel) return;
     
-    // คำนวณความกว้างของ 1 card + gap
-    const cardWidth = 168; // ความกว้างของภาพ
-    const gap = 16; // gap-4 = 16px
-    const scrollAmount = cardWidth + gap;
+  //   // คำนวณความกว้างของ 1 card + gap
+  //   const cardWidth = 168; // ความกว้างของภาพ
+  //   const gap = 16; // gap-4 = 16px
+  //   const scrollAmount = cardWidth + gap;
     
-    if (direction === 'left') {
-      carousel.scrollBy({
-        left: -scrollAmount,
-        behavior: 'smooth'
-      });
-    } else {
-      carousel.scrollBy({
-        left: scrollAmount,
-        behavior: 'smooth'
-      });
-    }
+  //   if (direction === 'left') {
+  //     carousel.scrollBy({
+  //       left: -scrollAmount,
+  //       behavior: 'smooth'
+  //     });
+  //   } else {
+  //     carousel.scrollBy({
+  //       left: scrollAmount,
+  //       behavior: 'smooth'
+  //     });
+  //   }
     
-    // Update button visibility
-    setTimeout(() => this.updateButtonVisibility(), 100);
-  }
+  //   // Update button visibility
+  //   setTimeout(() => this.updateButtonVisibility(), 100);
+  // }
 
-  private updateButtonVisibility(): void {
-    if (this.movies.length <= 6) return; // ไม่ต้องทำอะไรถ้า <= 6
+  // private updateButtonVisibility(): void {
+  //   if (this.movies.length <= 6) return; // ไม่ต้องทำอะไรถ้า <= 6
     
-    const carousel = document.getElementById('movieCarousel');
-    const leftButton = document.getElementById('scrollLeft');
-    const rightButton = document.getElementById('scrollRight');
+  //   const carousel = document.getElementById('movieCarousel');
+  //   const leftButton = document.getElementById('scrollLeft');
+  //   const rightButton = document.getElementById('scrollRight');
     
-    if (!carousel || !leftButton || !rightButton) return;
+  //   if (!carousel || !leftButton || !rightButton) return;
     
-    // Show/hide left button
-    if (carousel.scrollLeft <= 0) {
-      leftButton.classList.add('opacity-0', 'invisible');
-    } else {
-      leftButton.classList.remove('opacity-0', 'invisible');
-    }
+  //   // Show/hide left button
+  //   if (carousel.scrollLeft <= 0) {
+  //     leftButton.classList.add('opacity-0', 'invisible');
+  //   } else {
+  //     leftButton.classList.remove('opacity-0', 'invisible');
+  //   }
     
-    // Show/hide right button
-    const maxScroll = carousel.scrollWidth - carousel.clientWidth;
-    if (carousel.scrollLeft >= maxScroll - 10) { // -10 for tolerance
-      rightButton.classList.add('opacity-0', 'invisible');
-    } else {
-      rightButton.classList.remove('opacity-0', 'invisible');
-    }
-  }
+  //   // Show/hide right button
+  //   const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+  //   if (carousel.scrollLeft >= maxScroll - 10) { // -10 for tolerance
+  //     rightButton.classList.add('opacity-0', 'invisible');
+  //   } else {
+  //     rightButton.classList.remove('opacity-0', 'invisible');
+  //   }
+  // }
 
-  ngAfterViewInit(): void {
-    if (this.movies.length > 6) {
-      this.updateButtonVisibility();
+  // ngAfterViewInit(): void {
+  //   if (this.movies.length > 6) {
+  //     this.updateButtonVisibility();
       
-      // Listen for scroll events
-      const carousel = document.getElementById('movieCarousel');
-      if (carousel) {
-        carousel.addEventListener('scroll', () => this.updateButtonVisibility());
-      }
-    }
-  }
+  //     // Listen for scroll events
+  //     const carousel = document.getElementById('movieCarousel');
+  //     if (carousel) {
+  //       carousel.addEventListener('scroll', () => this.updateButtonVisibility());
+  //     }
+  //   }
+  // }
 
-  ngOnDestroy(): void {
-    // Clean up event listeners
-    const carousel = document.getElementById('movieCarousel');
-    if (carousel) {
-      carousel.removeEventListener('scroll', () => this.updateButtonVisibility());
-    }
-  }
+  // ngOnDestroy(): void {
+  //   // Clean up event listeners
+  //   const carousel = document.getElementById('movieCarousel');
+  //   if (carousel) {
+  //     carousel.removeEventListener('scroll', () => this.updateButtonVisibility());
+  //   }
+  // }
 }
 

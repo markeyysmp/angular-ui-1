@@ -1,52 +1,80 @@
 [
   {
     "id": 1,
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
-    "videoUrl": "https://imdb-video.media-imdb.com/vi684573465/1434659607842-pgv4ql-1640006590845.mp4?Expires=1754147783&Signature=fw8c40Ax46bNRKHIWJeF0DrCARJQyQtwqm-3XGhapaU0AwWSPzVzlwyGLrumeyCzNEE4UhIE1Iep7ySR40c3GeBypnvQISBWpis8TDLrYepDQIPAfWycOOn3pZ8IwHuiYdVaXFTZwBF4YGE73UWljYGtyu-ZMIWGafy3ogQwgqulgO43MKAl-CDKkx~uTaLuBjr9pFjJhVVIPC8q30pjzpSxYZHxnPQ7TCxomWhZHO~Im20bj8S73hlShptEDekrVBqxIyAQJbNy1okfLhRn0EoBWVEc5hZsSNmCKl8odFM-BTQucqGTijR8E2Lw-dvY55sIjdiHSQD8HmG9fK~n9w__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
-    "rating": 8.9
+    "title": "Superman",
+    "imgUrl": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg",
+    "videoUrls": "https://imdb-video.media-imdb.com/vi2849032217/1434659607842-pgv4ql-1752179439551.mp4?Expires=1754237829&Signature=fujo4dPlKZ9PDarVBq0AIMpPxbXnmm~3s17EvZlHrT~uTCu92YUCO~KGlsakh7jmXuU234W0D6f4IhWASX2ECxZwNADzW6PzF1~6gI61BGCoK4PzIMugqitSNVzKoAaudosbmv5ObleTaL-x821xr3AWG9zjVmtkDnsdMbQDWRQhQ6MOHWIDldiDGOBm0EhedeEfbN7~~7Tna3PyyMGFVeSund5RjReif4CnpvpkmtI76EmjI3JV1oCLdyoFuEyL8hN9jAneaX5lbYFKwrUPN-OfSKBbsqEsfXE0avqu6MpFcSR--zqZw9aMF4h1l3kMsLz5DnCYtpWYzoKiBJJL6g__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "rating": 7.5,
+    "ratingAmount": 185,
+    "movietype": ["Action","Adventure","Drama"],
+    "description" : "Superman must reconcile his alien Kryptonian heritage with his human upbringing as reporter Clark Kent. As the embodiment of truth, justice and the human way he soon finds himself in a world that views these as old-fashioned.",
+    "director": "Simon Kinberg",
+    "writters": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"],
+    "stars": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"]
   },
   {
     "id": 2,
-    "title": "Wednesday",
-    "imgUrl": "https://m.media-amazon.com/images/M/MV5BZGQxYWFlNzgtODZjMS00YmM5LWEzZWMtOGVmODMzYjIyODZiXkEyXkFqcGc@._V1_QL75_UY562_CR11,0,380,562_.jpg",
-    "videoUrl": "",
-    "rating": 8.3
+    "title": "Dexter Resurrection",
+    "imgUrl": "https://m.media-amazon.com/images/M/MV5BMzgxNzUwZTctMzliNi00MDUwLWE4YzctNjgwMDE2OWQwNzMxXkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg",
+    "videoUrls": "https://imdb-video.media-imdb.com/vi3078998041/1434659607842-pgv4ql-1748735957529.mp4?Expires=1754242479&Signature=Xn6K-pGyix7syKI8Fsc63BEHyjJIaApk6HXZIjJRNvoOzrATZtjZpdZd~7dQGaVPEt4QQScJ6pr03p~YVsGmTqSr7t-vxEwR-di6GD9r3HE~JBtWVm9~y~v3uhKRuvBxiC9EYzMnltUaE1~nF1YPZ-KTw1uI15UtJ7glPZCUNfE7WxWAZDXuR9FRJLDFqswR6Yvp7SKCJCXvm5GDFl5klJp5PWfe6aNmGEFNDHw6-3VNIU5nzhxCXnCokvKGWk-Srnxey5FSzCCJPMw~A1~c06CXQiAfY5AceWqk9zQd8AMsqUCC370Yu6WC-L86pooYEds6r3gw2vEPmMG2gm3jYA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "rating": 9.2,
+    "ratingAmount": 185,
+    "movietype": ["Crim","Thriller"],
+    "description" : "Dexter Morgan awakens from a coma and sets out for New York City, determined to find Harrison and make things right. But when Miami Metro's Angel Batista arrives with questions, Dexter realizes his past is catching up to him fast.",
+    "director": "Simon Kinberg",
+    "writters": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"],
+    "stars": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"]
   },
   {
     "id": 3,
-    "title": "Ojing-eo geim",
-    "imgUrl": "https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-    "videoUrl": "",
-    "rating": 9.2
+    "title": "The Sandman",
+    "imgUrl": "https://m.media-amazon.com/images/M/MV5BNjk0M2ZhZTQtZjQ0NC00ODA2LWFkN2ItMTA0ZTc0MjJjODg0XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg",
+    "videoUrls": "https://imdb-video.media-imdb.com/vi3656173593/1434659607842-pgv4ql-1751894251413.mp4?Expires=1754242635&Signature=WUsIlsjKWst8TmEXwCQrKzk33nHzZ7fxQbVjUqJ2AdEkQ~zQr4wnlC7vWhuVp3b8u~AEipQznjXmsAvkhqCLJNgsb3tmnDKA-guIM9w0x98JGbVXXVrfSEE4nZYMcnk~hjb9sijLtjHdNninPTb01nF5zcMZjRzMYECqOjYFUqLcswDmDSBy8snBHxcRJsCvlWN6K0eDTZR7xbet1MRLPSzC3MOWkrIBDhOPbBlfWvUcq4TZBx-8STe7Vm1a1sRdQ9sDrmnoFwxBJq6mccCzA6r1Nof0VrMJW1uD58GvpczwIipaxQCl76QIe4sifJaVN6fedqCXq2B2JutqHRt-6w__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "rating": 7.7,
+    "ratingAmount": 185,
+    "movietype": ["Dark Fantasy","Supernatural Horror","Drama","Fantasy","Horror","Mystery","Sci-Fi"],
+    "description" : "Upon escaping after decades of imprisonment by a mortal wizard, Dream, the personification of dreams, sets about to reclaim his lost equipment.",
+    "director": "Simon Kinberg",
+    "writters": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"],
+    "stars": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"]
   },
   {
     "id": 4,
-    "title": "Moana 2",
-    "imgUrl": "https://m.media-amazon.com/images/M/MV5BZDUxNThhYTUtYjgxNy00MGQ4LTgzOTEtZjg1YTU5NTcwNThlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-    "videoUrl": "",
-    "rating": 6.5
+    "title": "Sinners",
+    "imgUrl": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_QL75_UX280_CR0,0,280,414_.jpg",
+    "videoUrls": "https://imdb-video.media-imdb.com/vi3078998041/1434659607842-pgv4ql-1748735957529.mp4?Expires=1754242479&Signature=Xn6K-pGyix7syKI8Fsc63BEHyjJIaApk6HXZIjJRNvoOzrATZtjZpdZd~7dQGaVPEt4QQScJ6pr03p~YVsGmTqSr7t-vxEwR-di6GD9r3HE~JBtWVm9~y~v3uhKRuvBxiC9EYzMnltUaE1~nF1YPZ-KTw1uI15UtJ7glPZCUNfE7WxWAZDXuR9FRJLDFqswR6Yvp7SKCJCXvm5GDFl5klJp5PWfe6aNmGEFNDHw6-3VNIU5nzhxCXnCokvKGWk-Srnxey5FSzCCJPMw~A1~c06CXQiAfY5AceWqk9zQd8AMsqUCC370Yu6WC-L86pooYEds6r3gw2vEPmMG2gm3jYA__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "rating": 7.6,
+    "ratingAmount": 185,
+    "movietype": ["Folk Horror","Period Drama","Supernatural Horror","Vampire Horror","Action","Drama","Horror","Music","Thriller"],
+    "description" : "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+    "director": "Simon Kinberg",
+    "writters": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"],
+    "stars": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"]
   },
   {
     "id": 5,
-    "title": "Superman",
-    "imgUrl": "https://m.media-amazon.com/images/M/MV5BOGMwZGJiM2EtMzEwZC00YTYzLWIxNzYtMmJmZWNlZjgxZTMwXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
-    "videoUrl": "",
-    "rating": 7.6
+    "title": "Mahavatar Narsimha",
+    "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzhkMjFhOTItMTczNi00YWM1LTlhZjItOTc4OTA0OWVhZTIzXkEyXkFqcGc@._V1_QL75_UY414_CR26,0,280,414_.jpg",
+    "videoUrls": "https://imdb-video.media-imdb.com/vi131188761/1434659607842-pgv4ql-1752210826387.mp4?Expires=1754242783&Signature=aVKmzjA0fVI1qS5CQy57qeLZQESwmDdxvhcYTQBf0SJ1IfNEPRiVxlOgy9J9hy-IK-kTS3IPWR83RLG9c5DcW08KBC3vwlL~7uMbFyST7ZYePANphQZI2DpLki3vRAiV6zjVn-M6DiktnH3zxvF72psBjbV7lPKrDp4DeLBhXYWq~xalReGj2hS8oKYPbmfcrY9RQT8R9NhGH6jV61s1t9LSx10hyFgElAqmZt8BqxGxxe4XCJZAG3d1kOJ0NuvMbf1HOWO4ygt1q1X7xWcVFZ81zhrTcS8zcgQyIuD635~rCvqcz2k5BMgZf40RYxVndl0EWVTF3wZODmshnYab9Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "rating": 9.6,
+    "ratingAmount": 185,
+    "movietype": ["Action","Animation","Drama","Fantasy"],
+    "description" : "The demon Hiranyakashyap seeks revenge on Vishnu and declares himself a god. His son Prahlad remains devoted to Vishnu. Vishnu manifests as Narsimha to defeat the demon and restore balance.",
+    "director": "Simon Kinberg",
+    "writters": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"],
+    "stars": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"]
   },
   {
     "id": 6,
-    "title": "Thunderbolts*",
-    "imgUrl": "https://m.media-amazon.com/images/M/MV5BYWE2NmNmYTItZGY0ZC00MmY2LTk1NDAtMGUyMGEzMjcxNWM0XkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
-    "videoUrl": "",
-    "rating": 7.3
-  },
-  {
-    "id": 7,
-    "title": "Sinners",
-    "imgUrl": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-    "videoUrl": "",
-    "rating": 7.6
+    "title": "Batman: Atsawinrattikan",
+    "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX280_CR0,0,280,414_.jpg",
+    "videoUrls": "https://imdb-video.media-imdb.com/vi324468761/1434659607842-pgv4ql-1563712918369.mp4?Expires=1754242813&Signature=YM~GHB-AA2ALR~rT7p3ShxBufOF5fxbcLnQlLcgnsFh8AbBm1NIMMMya9FzKTEpzx5wgttkRnIy9POhq4IjCwcUv5lGZn7AFlis9xJSb~aDfJDgL-VMQXHFJQTvVRKlqnlAAHd04tuekwD5CEgXH5jDMZQGaQrXqUGY-8t4iFRuBt5o3KWYBZTtGBB2ckKqw9R7wdskDDSYDN90hjumRs0VFYsoUSsQOl~QPZZntg6i3sYFrtLTQrT5DNllf1gmjyCITESaOE5X8s2wyRtX9KKz64Rc6c6IYOavKEcR35tL1lTs8ZMmUDB1sxgyjk2Fx47-TDJQRiWSesr9H6GW5eQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+    "rating": 9.1,
+    "ratingAmount": 185,
+    "movietype": ["Action Epic","Epic","Superhero","Tragedy","Action","Crim","Drama","Thriller"],
+    "description" : "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
+    "director": "Simon Kinberg",
+    "writters": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"],
+    "stars": ["Simon Kinberg","John C. Mcginley","Kathryn Harrold"]
   }
-
 ]
